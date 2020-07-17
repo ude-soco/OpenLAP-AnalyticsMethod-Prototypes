@@ -1,6 +1,6 @@
-.idea/
-/target/
-/out/
+/.idea/**
+/target/**
+/out/**
 
 
 # Compiled class file
