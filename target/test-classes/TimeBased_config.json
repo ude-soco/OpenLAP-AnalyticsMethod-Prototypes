@@ -1,0 +1,36 @@
+{
+  "mapping": [
+    {
+      "outputPort": {
+        "type": "Numeric",
+        "id": "timestamp",
+        "required": true,
+        "title": "Timestamp",
+        "description": "Time when the learning event occurred in unix timestamp format"
+      },
+      "inputPort": {
+        "type": "Numeric",
+        "id": "timestamp",
+        "required": true,
+        "title": "Timestamp",
+        "description": "List of timestamps related to the items list"
+      }
+    },
+    {
+      "outputPort": {
+        "type": "Text",
+        "id": "category",
+        "required": true,
+        "title": "Category",
+        "description": "Category of the learning event."
+      },
+      "inputPort": {
+        "type": "Text",
+        "id": "item_name",
+        "required": true,
+        "title": "Items",
+        "description": "List of items to count"
+      }
+    }
+  ]
+}

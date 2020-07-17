@@ -1,0 +1,84 @@
+{
+  "mapping": [
+    {
+      "outputPort": {
+        "type": "Numeric",
+        "id": "timestamp",
+        "required": true,
+        "title": "Timestamp",
+        "description": "Time when the learning event occurred in unix timestamp format"
+      },
+      "inputPort": {
+        "type": "Numeric",
+        "id": "timestamp",
+        "required": true,
+        "title": "Timestamp",
+        "description": "List of timestamps to take the latest grade of user."
+      }
+    },
+    {
+      "outputPort": {
+        "type": "Text",
+        "id": "AssignmentTitle",
+        "required": false,
+        "title": "Assignment Title",
+        "description": "Title of the associated assignment"
+      },
+      "inputPort": {
+        "type": "Text",
+        "id": "assign_title",
+        "required": true,
+        "title": "Assignment Title",
+        "description": "List of assignment titles"
+      }
+    },
+    {
+      "outputPort": {
+        "type": "Numeric",
+        "id": "ObtainedMarks",
+        "required": false,
+        "title": "Obtained Marks",
+        "description": "Obtained marks in the Assignement"
+      },
+      "inputPort": {
+        "type": "Numeric",
+        "id": "marks",
+        "required": true,
+        "title": "Obtained Marks",
+        "description": "Obtained marks in the assignment."
+      }
+    },
+    {
+      "outputPort": {
+        "type": "Text",
+        "id": "SubmittedBy",
+        "required": false,
+        "title": "Submitted By",
+        "description": "Encrypted ID of the user who submitted the associated resource in the source courseroom"
+      },
+      "inputPort": {
+        "type": "Text",
+        "id": "user",
+        "required": true,
+        "title": "Submitted By",
+        "description": "List of students who submitted this solution."
+      }
+    },
+    {
+      "outputPort": {
+        "type": "Numeric",
+        "id": "TotalMarks",
+        "required": false,
+        "title": "Total Marks",
+        "description": "Total marks of the Assignment"
+      },
+      "inputPort": {
+        "type": "Numeric",
+        "id": "total_marks",
+        "required": true,
+        "title": "Total Marks",
+        "description": "Total marks of the assignment."
+      }
+    }
+  ]
+}

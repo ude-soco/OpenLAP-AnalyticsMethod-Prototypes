@@ -1,0 +1,36 @@
+{
+  "mapping": [
+    {
+      "outputPort": {
+        "type": "Numeric",
+        "id": "Assignment3Points",
+        "required": true,
+        "title": "Assignment 1 Points",
+        "description": "Points obtained in Assignment 1"
+      },
+      "inputPort": {
+        "type": "Numeric",
+        "id": "attribute_2",
+        "required": true,
+        "title": "Assignment 1 grades",
+        "description": "List of grades of assignment 1"
+      }
+    },
+    {
+      "outputPort": {
+        "type": "Numeric",
+        "id": "MaterialView",
+        "required": true,
+        "title": "Learning Material View",
+        "description": "Learning Material View"
+      },
+      "inputPort": {
+        "type": "Numeric",
+        "id": "attribute_1",
+        "required": true,
+        "title": "Views Category 1",
+        "description": "Views learning material"
+      }
+    }
+  ]
+}
